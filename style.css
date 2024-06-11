@@ -1,0 +1,38 @@
+body{
+background-color: gray;
+margin: 0;
+}
+.card{
+    width: 35%;
+    display: inline-block;
+    background-color: rgb(83, 77, 77);
+    border-radius: 60px;
+    margin: 60px;
+    border: 1px solid black;
+    transition: 0.9s;
+}
+.card:hover{
+    width: 35%;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+img{
+width: 100%;
+border-radius: 60px
+}
+.text{
+    padding: 60px;
+}
+p { 
+    font-size: 60px;
+    color: gray;
+    margin: 60px 0;
+}
+a {
+    display: inline;
+    text-decoration: none;
+    background-color: grey;
+    color: white;
+    padding: 30px 200px;
+    text-transform: extralight;
+    font-weight: bold;
+}
